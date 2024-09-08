@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bricks Breaking Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="game-container">
+            <div id="game-over-message" style="display: none; color: white; font-size: 40px; text-align: center;">
+                Game Over!
+            </div>
+            <div id="Dead" style="display: none; color: white; font-size: 40px; text-align: center;">
+                Your are dead start agian!
+            </div>
+            
+        </div>
+        
+        <div class="controls">
+            <button id="start-btn">Start Game</button>
+            <button id="pause-btn">Pause</button>
+            <button id="resume-btn">Resume</button>
+            <button id="new-game-btn">New Game</button>
+            <div id="score-board">Score: 0</div>
+            <div id="lives-board">Lives: 3</div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
